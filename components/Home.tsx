@@ -404,7 +404,7 @@ const Home = ({products} : {products: any}) => {
                                 </div>
                                 <div class="blog__post-content">
                                     <h3 class="title"><a href="blog-details.html">${product.name}</a></h3>
-                                    <a href="https://wa.me?phone=+919866678653&text=I%20am%20interested%20in%20${encodeURIComponent(product.name)}" class="link-btn">
+                                    <a href="https://wa.me/+919866678653?text=I%20am%20interested%20in%20${encodeURIComponent(product.name)}" class="link-btn">
                                         Enquire
                                         <i class="icon-arrow-top-left"></i>
                                     </a>
