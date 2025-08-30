@@ -51,7 +51,7 @@ const InnerProduct = ({ product }: { product: any }) => {
                             </blockquote>
                             -->
 
-                            <a href="https://wa.me/919866678652?text=I%20am%20interested%20in%20${encodeURIComponent(product.name)}" class="btn">Enquire</a>
+                            <a href="https://wa.me/+919866678652?text=I%20am%20interested%20in%20${encodeURIComponent(product.name)}" class="btn">Enquire</a>
                         </div>
                     </div>
                 </div>
