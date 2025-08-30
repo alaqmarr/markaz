@@ -4408,6 +4408,17 @@ textarea.is-invalid {
   padding-bottom: 257px;
   background: linear-gradient(177.04deg, var(--tg-theme-primary) 2.46%, rgba(168, 247, 0, 0) 44.58%);
 }
+.hero-72 {
+  position: relative;
+  z-index: 1;
+  padding-top: 20px;
+  color: black;
+  background: linear-gradient(177.04deg, var(--tg-theme-primary) 2.46%, rgba(168, 247, 0, 0) 44.58%);
+}
+
+.text-black{
+  color: black;
+}
 @media (max-width: 1399px) {
   .hero-7 {
     padding-top: 280px;

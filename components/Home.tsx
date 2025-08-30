@@ -400,10 +400,10 @@ const Home = ({products} : {products: any}) => {
                         <div class="col-xl-4 col-md-6">
                             <div class="blog__post-item-five shine-animate-item">
                                 <div class="blog__post-thumb">
-                                    <a class="shine-animate" href="blog-details.html"><img src="${product.images[0].url}" alt="img"></a>
+                                    <a class="shine-animate" href="/products/${product.id}"><img src="${product.images[0].url}" alt="img"></a>
                                 </div>
                                 <div class="blog__post-content">
-                                    <h3 class="title"><a href="blog-details.html">${product.name}</a></h3>
+                                    <h3 class="title"><a href="/products/${product.id}">${product.name}</a></h3>
                                     <a href="https://wa.me/+919866678653?text=I%20am%20interested%20in%20${encodeURIComponent(product.name)}" class="link-btn">
                                         Enquire
                                         <i class="icon-arrow-top-left"></i>
@@ -442,10 +442,10 @@ const Home = ({products} : {products: any}) => {
                         <div class="col-xl-4 col-md-6">
                             <div class="blog__post-item-five shine-animate-item">
                                 <div class="blog__post-thumb">
-                                    <a class="shine-animate" href="blog-details.html"><img src="${product.images[0].url}" alt="img"></a>
+                                    <a class="shine-animate" href="/products/${product.id}"><img src="${product.images[0].url}" alt="img"></a>
                                 </div>
                                 <div class="blog__post-content">
-                                    <h3 class="title"><a href="blog-details.html">${product.name}</a></h3>
+                                    <h3 class="title"><a href="/products/${product.id}">${product.name}</a></h3>
                                     <a href="https://wa.me/+919866678652?text=I%20am%20interested%20in%20${encodeURIComponent(product.name)}" class="link-btn">
                                         Enquire
                                         <i class="icon-arrow-top-left"></i>

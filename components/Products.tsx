@@ -7,19 +7,12 @@ const Products = ({ products } : { products: any }) => {
     <!--==============================
     Breadcrumb Area
     ==============================-->
-    <section class="breadcrumb__area fix">
+    <section class="hero-wrapper hero-72">
         <div class="container">
             <div class="row align-items-end">
                 <div class="col-lg-8">
                     <div class="breadcrumb__content">
-                        <h3 class="title">PRODUCTS<img class="breadcrumb-shape" src="assets/img/others/bredcrumb-shape1.png" alt="img"></h3>
-                        <nav class="breadcrumb">
-                            <span property="itemListElement" typeof="ListItem">
-                                <a href="/">Home</a>
-                            </span>
-                            <span class="breadcrumb-separator"><i class="flaticon-right-arrow-angle"></i></span>
-                            <span property="itemListElement" typeof="ListItem">Products</span>
-                        </nav>
+                        <h3 class="title text-black">PRODUCTS<img class="breadcrumb-shape" src="assets/img/others/bredcrumb-shape1.png" alt="img"></h3>
                     </div>
                 </div>
             </div>
